@@ -1,6 +1,4 @@
 #include <iostream>
-
-
 template <typename T>
 struct Node
 {
@@ -19,4 +17,4 @@ struct Node
     delete this;
 
   };
-}
+};
