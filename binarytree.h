@@ -3,7 +3,7 @@
 using namespace std;
 
 template<typename T>
-class BinaryTree
+class BinaryTree // Falta el remove, falta el peso
 {
 private:
   Node<T>* root;
@@ -116,7 +116,7 @@ public:
           current = root;
         }
       }
-      else throw runtime_error("Input already exists.");
+      else throw runtime_error("Input already exists.");// En vez de error, simplemente deberías ignorar
     }
     else current = root = newNode;
   }
